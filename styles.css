@@ -1,0 +1,112 @@
+/* Reset Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Login Section */
+.login {
+    padding: 2rem;
+    text-align: center;
+}
+
+.login form {
+    display: inline-block;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.login input {
+    display: block;
+    width: 200px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.login button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
